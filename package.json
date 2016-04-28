@@ -1,0 +1,27 @@
+{
+  "name": "featurebook-cli",
+  "version": "1.0.0-alpha",
+  "description": "FeatureBook's command line interface",
+  "preferGlobal": true,
+  "bin": {
+    "featurebook": "./bin/featurebook.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SOFTWARE-CLINIC/featurebook-cli.git"
+  },
+  "author": {
+    "name": "Daniel Pacak",
+    "email": "pacak.daniel@gmail.com"
+  },
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "commander": "2.9.0"
+  }
+}
